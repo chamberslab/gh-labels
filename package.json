@@ -1,7 +1,7 @@
 {
   "name": "@chamberslab/gh-labels",
   "version": "1.0.0",
-  "description": "Dynamic GitHub-style label SVG generator service built with RedwoodSDK and Cloudflare Workers",
+  "description": "A GitHub Label Generator service that uses RedwoodSDK for dynamic SVG badge generation via a REST API.",
   "main": "index.js",
   "type": "module",
   "keywords": [],

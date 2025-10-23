@@ -1,24 +1,33 @@
-# RedwoodSDK Minimal Starter
+# GitHub Label Generator
 
-This is the starter project for RedwoodSDK. It's a template designed to get you up and running as quickly as possible.
+This project is a GitHub Label Generator service that utilizes Cloudflare Workers and RedwoodSDK to dynamically generate SVG badges via a REST API.
 
-Create your new project:
+## Table of Contents
 
-```shell
-npx create-rwsdk my-project-name
-cd my-project-name
-npm install
+- [Usage](#usage)
+- [API Endpoints](#api-endpoints)
+
+## Usage
+
+Once the dependencies are installed, you can deploy the Cloudflare Worker.
+
+```bash
+pnpm release
 ```
 
-## Running the dev server
+## API Endpoints
 
-```shell
-npm run dev
+### Generate a SVG
+
+**Example Request:**
+
+```
+GET /passing/example.svg
+GET /optional/feature.svg
+GET /blocking/urgent.svg
 ```
 
-Point your browser to the URL displayed in the terminal (e.g. `http://localhost:5173/`). You should see a "Hello World" message in your browser.
+### Service Information
 
-## Further Reading
-
-- [RedwoodSDK Documentation](https://docs.rwsdk.com/)
-- [Cloudflare Workers Documentation](https://developers.cloudflare.com/workers)
+- **Endpoint:** `GET /`
+- **Description:** Returns information about the service.
