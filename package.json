@@ -1,6 +1,6 @@
 {
   "name": "@chamberslab/gh-labels",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A GitHub Label Generator service that uses RedwoodSDK for dynamic SVG badge generation via a REST API.",
   "main": "index.js",
   "type": "module",
@@ -22,20 +22,20 @@
     "types": "tsc"
   },
   "dependencies": {
-    "react": "19.3.0-canary-4fdf7cf2-20251003",
-    "react-dom": "19.3.0-canary-4fdf7cf2-20251003",
-    "react-server-dom-webpack": "19.3.0-canary-4fdf7cf2-20251003",
-    "rwsdk": "1.0.0-beta.16"
+    "react": "19.3.0-canary-b061b597-20251212",
+    "react-dom": "19.3.0-canary-b061b597-20251212",
+    "react-server-dom-webpack": "19.3.0-canary-b061b597-20251212",
+    "rwsdk": "1.0.0-beta.41"
   },
   "devDependencies": {
-    "@cloudflare/vite-plugin": "1.13.10",
-    "@cloudflare/workers-types": "4.20251004.0",
-    "@types/node": "~24.5.2",
-    "@types/react": "19.1.2",
-    "@types/react-dom": "19.1.2",
-    "typescript": "5.8.3",
-    "vite": "7.1.11",
-    "wrangler": "4.42.0"
+    "@cloudflare/vite-plugin": "1.17.1",
+    "@cloudflare/workers-types": "4.20251213.0",
+    "@types/node": "25.0.2",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3",
+    "vite": "7.3.0",
+    "wrangler": "4.54.0"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
